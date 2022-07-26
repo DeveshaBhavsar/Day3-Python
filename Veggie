@@ -1,0 +1,6 @@
+price = input('How much is a burger? ')
+vegetarian = input('Is there a vegetarian option? (y/n) ')
+budget = float(price) <= 10.00
+has_vegetarian_option = vegetarian == 'y'
+is_good_choice = budget and has_vegetarian_option
+print('Restaurant meets criteria: {}'.format(is_good_choice))
