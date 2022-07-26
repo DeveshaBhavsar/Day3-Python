@@ -1,0 +1,5 @@
+
+burger_price = input('what is the price of burger?')
+
+budget = float(burger_price) <= 10.00
+print('Your burger is within budget:{}'.format(budget))
